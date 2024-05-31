@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(45, 119, 45);
+}
+form {
+    margin: 20px auto;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    background-color: orange
+}
+
+input[type="text"], input[type="number"] {
+    width: 75%;
+    padding: 10px;
+    border-style: double;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: red;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border-style: double;
+    cursor: pointer;
+}
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
